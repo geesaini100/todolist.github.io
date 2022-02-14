@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px red solid; */
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/* .wrapper{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.input-main{
+    width: 250px;
+}
+
+
+header{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: rgba(39, 110, 198, 0.242);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.add-btn{
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(196, 196, 196);
+    width: 40px;
+    height: 21px;
+}
+
+#hide-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(255, 147, 163);
+    padding: 5px;
+}
+
+
+.list-container{
+    text-align: center;
+    width: 55%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.119);
+    border-radius: 10px;
+    padding: 0px 10px 25px 10px;
+
+}
+
+.list-container ul{
+    display:inline;
+}
+
+.list-container li{
+    text-align: center;
+    list-style: none;
+    border: rgba(128, 128, 128, 0.488) 1px solid;
+    border-radius: 50px;
+    margin: 3px 0px 0px 0px;
+    padding: 7px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+/* Cross-Through Button */
+.done {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(196, 196, 196);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+
+
+/* mobile view */
+@media (max-width: 600px) {
+    h1{
+        padding: 15px;
+    }
+
+    header{
+        width: 80%;
+    }
+
+    .input-main{
+        width: 50%;
+    }
+
+    #hide-btn{
+        width: fit-content;
+    }
+
+    .list-container{
+        width: 99%;
+    }
+
+
+}
