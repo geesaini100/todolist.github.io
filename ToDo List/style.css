@@ -3,10 +3,17 @@
     /* outline: 1px red solid; */
 }
 
+html{
+    height: 800px;
+}
+
 body{
+    height: 100%;
     font-family: 'Rajdhani', sans-serif;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: url(./images/gradient.svg);
+    background-repeat:repeat-y;
+    background-position: center;
+    background-size: cover;
 }
 
 /* .wrapper{
@@ -18,6 +25,9 @@ body{
 
 .input-main{
     width: 250px;
+    border: none;
+    border-radius: 30px;
+    text-indent: 8px;
 }
 
 
@@ -25,11 +35,13 @@ header{
     text-align: center;
     padding-bottom: 10px;
     font-size: 25px;
+    font-weight: lighter;
     background-color: rgba(39, 110, 198, 0.242);
     width: 600px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+    color: black;
 }
 
 .add-btn{
@@ -47,25 +59,26 @@ header{
     text-align: center;
     margin: auto;
     margin-top: 10px;
-    width: 600px;
+    width: 200px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    background-color: rgb(255, 147, 163);
+    background-color: rgba(182, 182, 182, 0.329);
     padding: 5px;
 }
 
 
 .list-container{
     text-align: center;
-    width: 55%;
+    width: 25%;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(255, 255, 255, 0.119);
+    /* background-color: rgba(255, 255, 255, 0.119); */
     border-radius: 10px;
     padding: 0px 10px 25px 10px;
-
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .list-container ul{
@@ -75,8 +88,8 @@ header{
 .list-container li{
     text-align: center;
     list-style: none;
-    border: rgba(128, 128, 128, 0.488) 1px solid;
-    border-radius: 50px;
+    border: rgba(0, 0, 0, 0.843) 1px solid;
+    border-radius: 10px;
     margin: 3px 0px 0px 0px;
     padding: 7px;
     font-size: 19px;
